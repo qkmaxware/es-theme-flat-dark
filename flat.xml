@@ -20,6 +20,15 @@ license:		creative commons CC-BY-NC-SA
 			<color>241d1d</color>
 		</image>
 
+		<image name="help_background" extra="true">
+			<tile>true</tile>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./assets/box.png</path>
+			<color>241d1d</color>
+		</image>
+
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
 			<iconColor>ffffff</iconColor>
@@ -192,30 +201,6 @@ license:		creative commons CC-BY-NC-SA
 		</image>
 	
 	</view>
-	
-<feature supported="carousel">
-  
-  <view name="system">
-
-    <carousel name="systemcarousel">
-      <pos>0 0.42</pos> <!-- Currently only y value is used -->
-      <size>1 0.2325</size> <!-- currently only height value is used -->
-      <color>ffffff</color>
-      <logoScale>1.5</logoScale>
-      <logoSize>0.125 0.155</logoSize>
-      <maxLogoCount>5</maxLogoCount>
-    </carousel>
-
-   <text name="systemInfo">
-      <backgroundColor>dddddd00</backgroundColor>
-      <color>00000000</color>
-      <fontPath></fontPath>
-      <fontSize>0.035</fontSize>
-    </text>
-
-  </view>
-
-  </feature>
 	
   <feature supported="video">
 		
