@@ -1,36 +1,37 @@
 <theme>
     <formatVersion>4</formatVersion>
-	<include>./../Switch.xml</include>
+	<include>./../flat.xml</include>
 
 	<view name="system">
 
-		<image name="logo">
-			<path>./system.png</path>
+		<image name="background" extra="true">
+			<color>ba0001</color>
 		</image>
-		
-		<text name="system_name_1" extra="true">
-			<text>Nintendo GameCube</text>
-			<forceUppercase>0</forceUppercase>
-			<size>0.743 0.015</size>
-			<pos>0.06 0.25</pos>
-			<color>178ad2</color>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<alignment>left</alignment>
-		</text>
+
+		<image name="logo">
+			<path>./system.svg</path>
+		</image>
 
 	</view>
 
-	<view name="basic, detailed, video">	
+	<view name="basic, detailed, video">
+	
+		<image name="logo">
+			<path>./../assets/Nintendo.png</path>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>ba0001</selectorColor>
+		</textlist>	
 		
 		<text name="system_name_1" extra="true">
-			<text>Nintendo GameCube</text>
-			<forceUppercase>0</forceUppercase>
-			<size>0.743 0.031</size>
-			<pos>0.034 0.065</pos>
-			<color>fefefe</color>
-			<fontPath>./../assets/Oxygen-Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<text>Gamecube</text>
+			<forceUppercase>1</forceUppercase>
+			<size>0.743 0.085</size>
+			<pos>0.192 0.019</pos>
+			<color>c9c9c9</color>
+			<fontPath>./../assets/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.077</fontSize>
 			<alignment>left</alignment>
 		</text>
 	
